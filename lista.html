@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letnie desery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/lista.css">
+    <link rel="stylesheet" href="css/menu.css">  
+</head>
+
+<body>
+    <agroup>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li>
+                    <a href="index.html">Strona główna</a>
+                    <i class="fas fa-wine-glass-alt"></i>
+                </li>
+                <li>
+                    <a href="mus.html">Przepis: Mus malinowy </a>
+                    <i class="fas fa-book"></i>
+                </li>
+                <li>
+                    <a href="film.html">Film </a>
+                    <i class="fas fa-video"></i>
+                </li>
+                <li class = "active">
+                    <a href="lista.html">Dodaj swój przepis </a>
+                    <i class="fas fa-pen"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <body link="black" vlink="black" alink="pink">...</body>
+
+    <header>                  
+    </header>
+
+    <main>
+        <div class="todo-cnt">
+            <form class="todo-form" id="todoForm">
+                <div class="todo-form-row">
+                    <label class="todo-form-label" for="todoMessage">Podaj treść</label>
+                    <textarea class="todo-form-message" name="todoMessage" id="todoMessage"></textarea>
+                </div>
+                <div class="todo-form-row">
+                    <button type="submit" class="button todo-form-button">Dodaj</button>
+                </div>
+            </form>
+
+            <section class="todo-list-cnt">
+                <header class="todo-list-header">
+                    <h2 class="todo-list-title">
+                        Lista przepisów
+                    </h2>
+                    <form class="todo-list-search-form">
+                        <input type="search" id="todoSearch" class="todo-list-search">
+                    </form>
+                </header>
+                <div class="todo-list" id="todoList"></div>
+            </section>
+        </div>
+        <script src="js/javascript.js"></script>
+    </main>
+</body>
+</html>
